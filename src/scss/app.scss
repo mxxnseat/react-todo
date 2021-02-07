@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+.app{
+    max-width: 400px;
+    outline: 1px solid #000;
+    margin: 0 auto;
+}
+.header{
+    padding: 5px 10px;
+    background-color: #8a4612;
+    display: flex;
+    gap: 2px;
+
+    &__input{
+        flex: 1;
+    }
+}
+.list{
+    padding: 5px 10px;
+    &__item{
+        display: flex;
+        align-items: center;
+        padding: 8px 0;
+        border: 1px solid #ccc;
+        border-right: none;
+        border-left: none;
+    }
+}
